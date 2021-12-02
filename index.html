@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Outfit&display=swap"
+      rel="stylesheet"
+    />
+    
+    <title>Book shop</title>
+    <hr />
+    <style>
+      body {
+        background-color: rgb(122, 141, 135);
+      }
+      .card {
+        height: 400px;
+        font-family: "Cedarville Cursive", cursive;
+        font-family: "Outfit", sans-serif;
+        margin-top: 10px;
+      }
+      .btn {
+        border-radius: 4px;
+        font-family: "Cedarville Cursive", cursive;
+        font-family: "Outfit", sans-serif;
+        border-color: black;
+      }
+      img {
+        height: 350px;
+      }
+      .h2id {
+        font-family: "Cedarville Cursive", cursive;
+        font-family: "MedievalSharp", cursive;
+        font-family: "Outfit", sans-serif;
+      }
+      .card-img-top-modal {
+        height: 100px;
+        width: 100px;
+        margin-left: 10px;
+      }
+      .cart-container {
+        border: 1px solid #e0e4cc;
+        border-radius: 5px;
+       
+      }
+      button,
+      input[type="submit"] {
+        border: 1px solid #494644;
+        color: #fff;
+        background: #4d4a47;
+        padding: 0.6em 1em;
+        font-size: 1em;
+        line-height: 1;
+        border-radius: 1.2em;
+      }
+    
+      
+      table {
+        margin-bottom: 1em;
+        border-collapse: collapse;
+      }
+      table td,
+      table th {
+        text-align: left;
+        padding: 0.25em 1em;
+        border-bottom: 1px solid #e0e4cc;
+      }
+      #carttotals {
+        margin-right: 0;
+        margin-left: auto;
+      }
+      .cart-buttons {
+        width: auto;
+        margin-right: 0;
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-end;
+        padding: 1em 0;
+      }
+      #emptycart {
+        margin-right: 1em;
+      }
+      table td:nth-last-child(1) {
+        text-align: right;
+      }
+      .message {
+        border-width: 1px 0px;
+        border-style: solid;
+        border-color: #a7dbd8;
+        color: #679996;
+        padding: 0.5em 0;
+        margin: 1em 0;
+      }
+      .mt-4{
+   position:absolute;
+   top:150px;
+   right:40px;
+   height: 200px;
+   width: 400px;
+      }
+          
+    </style>
+  </head>
+  <body>
+    <h2 class="h2id text-center mt-5">Strive Book Shop</h2>
+
+    <hr />
+
+    <div class="container">
+      <div class="row mt-5  "></div>
+    </div>
+
+    <!-- <div class="container mt-4 d-flex">
+        <div class="row mt-5 ">
+      <h2>Cart Section</h2>
+      <table>
+        <thead>
+          <tr>
+            <th><strong>Product</strong></th>
+            <th><strong>Price</strong></th>
+          </tr>
+        </thead>
+        <tbody id="carttable"></tbody>
+      </table>
+      <hr />
+      <table id="carttotals">
+        <tr>
+          <td><strong>Total</strong></td>
+        </tr>
+        <tr>
+          <td>$<span id="total">0</span></td>
+        </tr>
+      </table>
+      <div class="cart-buttons">
+        <button id="emptycart">Empty Cart</button>
+        <button id="checkout">Checkout</button>
+      </div>
+      </div>
+      </div>
+    -->
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <script src="index.js"></script>
+</html>

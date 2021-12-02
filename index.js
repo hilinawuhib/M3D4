@@ -22,6 +22,8 @@ window.onload = () => {
                   <h5 class="card-title">${book.title}</h5>
                   <p class="card-text">${book.price}</p>
                
+                  <p class="card-text">${book.category}</p>
+               
              <button type="button" class="btn ">
            add to cart
            </button>
